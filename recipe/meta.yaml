@@ -1,5 +1,5 @@
 {% set name = "afwizard-library" %}
-{% set version = "0.0.9" %}
+{% set version = "0.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/afwizard_library-{{ version }}.tar.gz
-  sha256: 41a9e2bac63643bdd18234490be5d0101046e699cb3d2b138b68b117aa1d1ac8
+  sha256: 43af126aafe51e0db75b075b900c122c68c49b47a018b4b8a351e548034ac15f
 
 build:
   noarch: python
