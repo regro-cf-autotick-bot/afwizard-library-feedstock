@@ -3,4 +3,6 @@ github:
   tooling_branch_name: main
 conda_forge_output_validation: true
 bot:
-  automerge: True
+  automerge: true
+conda_build:
+  pkg_format: '2'
